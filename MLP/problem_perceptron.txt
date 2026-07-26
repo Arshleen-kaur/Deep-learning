@@ -1,0 +1,12 @@
+Problem with Perceptron
+1. It does not work with XOR data
+2. It does not work wirth non-linear data
+
+MLP : Multi-Layer Perceptron
+Trained with Backprop
+ n=4 (4D data)
+ How many trainable parameters
+ weights                        | biases
+ (input layer* hidden layer 1)  | (hidden layer 1 biases)
+ (hidden layer 1* hidden layer2)| (hidden layer 2 biases)
+ (hidden layer 2 * output layer)| (1 bias output layer)
