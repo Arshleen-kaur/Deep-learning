@@ -39,3 +39,9 @@ plt.scatter(X[:,0],X[:,1],c=y,cmap='winter',s=100)
 plt.ylim(-3,2)
 plt.savefig("decision-boundaryofrandom-scatterplot.png")
 plt.show()
+
+# Problems with perceptron trick
+# Cannot be ensured that the same line will be formed everytime
+# Result cannot be quantfied
+# Perceptron may or may not converge
+# Loss function is used instead : mse, hinge loss, log loss, 01 loss
