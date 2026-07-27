@@ -35,3 +35,4 @@ from mlxtend.plotting import plot_decision_regions
 plot_decision_regions(x.values, y.values, clf=p, legend=2)
 plt.savefig("decision-boundary.png", dpi=300, bbox_inches="tight")
 plt.show()
+
