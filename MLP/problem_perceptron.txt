@@ -4,6 +4,13 @@ Problem with Perceptron
 
 MLP : Multi-Layer Perceptron
 Trained with Backprop
+Hidden layers which have multiple perceptrons which capture linearity but a combination of them captures non-linearity
+Nodes can be added in hidden layersanother way is to increase input layer nodes. (from 2d to 3d)
+combining two planes linearly
+Another way is increasing nodes in output layer. (multi-class classification)
+Another way is increasing the number of hidden layers
+Neural networks are UFA 
+
  n=4 (4D data)
  How many trainable parameters
  weights                        | biases
