@@ -31,4 +31,28 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"  # 0=all, 1=INFO, 2=WARNING, 3=ERROR
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import Sequential
+from tensorflow.keras.layers import Dense
 
+model = Sequential()
+
+model.add(Dense(11,activation='sigmoid',input_dim=11))
+model.add(Dense(11,activation='sigmoid'))
+model.add(Dense(1,activation='sigmoid'))
+
+model.summary()
+model.compile(optimizer='Adam',loss='binary_crossentropy',metrics=['accuracy'])
+history = model.fit(X_train,y_train,batch_size=50,epochs=100,verbose=1,validation_split=0.2)
+y_pred = model.predict(X_test)
+y_pred = y_pred.argmax(axis=-1)
+from sklearn.metrics import accuracy_score
+print(accuracy_score(y_test,y_pred))
+import matplotlib.pyplot as plt`
+
+plt.plot(history.history['loss'])
+plt.show()
+plt.plot(history.history['val_loss'])
+plt.show()
+plt.plot(history.history['accuracy'])
+plt.show()
+plt.plot(history.history['val_accuracy'])
+plt.show()

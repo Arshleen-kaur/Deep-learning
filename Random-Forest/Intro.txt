@@ -1,0 +1,39 @@
+Wisdom of the crowd
+
+Core Idea
+-> Training: 
+-> Prediction: Indiviual models are very different. Different algos or different data
+In regression, it will calculate the mean
+
+Types of Ensemble Learning:
+-> Voting : Base models are different algorithms. 
+-> Bagging : (Bootstrap aggregation ) Every model is provided with different data.
+eg. Random forest
+-> Boosting : Same models; Data is given to the first model, finds its mistakes and then the secong model focuses on those
+eg. Adaboost, XgBoost, Gradient Boosting
+-> Stacking : Another ML algo which will learn on the models trained initially. It will assign weights to the base model. 
+
+Why it works?
+Majority Voting
+
+Benefits
+-> Improvement in performance
+-> Reduces bias and variance
+-> Robustness
+Disadvantage
+-> Multiple models need to be trained
+
+When to use?
+Always
+
+Random forest
+Group of decision trees bagging based technique (bootstrap aggregation; i.e random sampling)
+1. A lot of base models (decision trees) get samples of the same data
+Row sampling: 500 rows with or without replacement
+Column sampling: any random 5 columns (Feature sampling)
+Hybrid: Combination of row sampling and column sampling
+
+2. Aggregation: 
+
+We always need low bias and low variance. Most of the ML algos struggle with this because bias and variance have inverse relationship.
+Random forest behaves so good because we can keep both bias and variance low.
