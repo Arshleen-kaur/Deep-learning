@@ -37,3 +37,20 @@ Hybrid: Combination of row sampling and column sampling
 
 We always need low bias and low variance. Most of the ML algos struggle with this because bias and variance have inverse relationship.
 Random forest behaves so good because we can keep both bias and variance low.
+
+Difference between bagging and random forest
+-> Bagging is a general technique which can have many different base algos; Random forest is decision tree
+-> RF is better than bagging because of node level sampling
+
+HyperParameters
+-> n_estimators: How many decision trees
+-> max_features: How many columns to use, auto,sqrt,log2
+-> bootstrap: randomly selected or not? 
+-> max_samples: no. of rows
+
+decision trees HyperParameters
+
+oob_score
+n_jobs
+random_state
+class_dsts
