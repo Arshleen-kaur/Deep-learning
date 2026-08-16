@@ -54,3 +54,7 @@ oob_score
 n_jobs
 random_state
 class_dsts
+
+# Feature importance  column importance
+# Feature selection : Keep only the best features
+# Explainability
