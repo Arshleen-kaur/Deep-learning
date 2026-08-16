@@ -64,3 +64,5 @@ Where is PyTorch used in Industry?
 -> Tesla : Autopilot system
 -> OpenAI
 -> Uber
+
+Torch.optim : Module that provides a variety of optimisation algorithm used to update the parameters during Training.
