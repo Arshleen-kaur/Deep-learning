@@ -1,0 +1,66 @@
+Pytorch is open source python based deep learning library
+Torch in 2002 could be used to do tensor based applications. Deep learning as well
+Disadvantages with Torch
+-> Lua based
+-> Compuation graphs were static
+
+Pytorch 2017 0.1
+-> Python compatibility
+-> Dynamic computation graph: Visual way of implementing mathematical operations, Pytorch has dynamic which means it changes with runtime.
+
+Pytorch 1.0 (2018)
+-> Bridged the gap between research and production environments
+-> Torchscript: model serialisation and optimization
+-> Caffe2 Integration
+
+PyTorch 1.x series
+-> Support for distributed Training
+-> ONNX Support
+-> Quantization for model compression and efficiency
+-> Torchvision, torchtext and torchaudio
+-> Pytorch lightning
+-> strengthened cloud support for easy deployment
+
+Pytorch 2.0
+-> Significant performance Improvements
+-> ImprovementS in latency and throughput
+-> Optimised for modern hardware (TPUs, custom AI chips)
+
+Core features 
+-> Tensor computations
+-> GPU Acceleration
+-> Dynamic Compuation graph
+-> Automatic Differentiation
+-> Distributed Training
+-> Interoperability with other libraries
+
+Pytorch vs Tensorflow
+-> Programming Language: Python for Pytorch, C,Cpp, Java, Swift for Tensorflow
+-> Ease of use: Pytorch
+-> Deployment and Production: TorchScript, Pytorch mobile, Tensorflow serving, tensorflow lite, 
+-> Performance: Both equally equally
+-> Community and Ecosystem: 
+-> High level API : keras tensorflow
+-> Mobile and Embedded deployment: Tensorflow
+-> Preferred domain: research for Pytorch
+-> Interoperability : Pytorch
+-> Parallelism and Distributed Training
+-> Model zoo and pre-trained models
+
+PyTorch is up and coming especially for Genai
+
+Core modules
+-> Torch
+-> torch.autograd
+-> torch.nn
+-> torch.optim
+-> torch.utils.data
+-> torch.distributed
+-> torch.ONNX
+
+Where is PyTorch used in Industry?
+-> Meta Platforms
+-> Microsoft
+-> Tesla : Autopilot system
+-> OpenAI
+-> Uber
